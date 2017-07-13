@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACEDD6541F16F6B500CA7B78 /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACEDD6531F16F6B500CA7B78 /* tesla.jpg */; };
+		ACEDD6571F16F73000CA7B78 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDD6561F16F73000CA7B78 /* MaterialView.swift */; };
+		ACEDD6591F16FA4100CA7B78 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDD6581F16FA4100CA7B78 /* ItemCell.swift */; };
 		ACF690331F15A12A003CB597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF690321F15A12A003CB597 /* AppDelegate.swift */; };
-		ACF690351F15A12A003CB597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF690341F15A12A003CB597 /* ViewController.swift */; };
+		ACF690351F15A12A003CB597 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF690341F15A12A003CB597 /* MainVC.swift */; };
 		ACF690381F15A12A003CB597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF690361F15A12A003CB597 /* Main.storyboard */; };
 		ACF6903B1F15A12A003CB597 /* DreamLister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACF690391F15A12A003CB597 /* DreamLister.xcdatamodeld */; };
 		ACF6903D1F15A12A003CB597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF6903C1F15A12A003CB597 /* Assets.xcassets */; };
@@ -24,9 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACEDD6531F16F6B500CA7B78 /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
+		ACEDD6561F16F73000CA7B78 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		ACEDD6581F16FA4100CA7B78 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		ACF6902F1F15A12A003CB597 /* DreamLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF690321F15A12A003CB597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF690341F15A12A003CB597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF690341F15A12A003CB597 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		ACF690371F15A12A003CB597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF6903A1F15A12A003CB597 /* DreamLister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister.xcdatamodel; sourceTree = "<group>"; };
 		ACF6903C1F15A12A003CB597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACEDD6551F16F6FD00CA7B78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDD6561F16F73000CA7B78 /* MaterialView.swift */,
+				ACEDD6581F16FA4100CA7B78 /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		ACF690261F15A12A003CB597 = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +87,12 @@
 		ACF690311F15A12A003CB597 /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				ACEDD6551F16F6FD00CA7B78 /* View */,
 				ACF690571F15A691003CB597 /* Model */,
 				ACF690321F15A12A003CB597 /* AppDelegate.swift */,
-				ACF690341F15A12A003CB597 /* ViewController.swift */,
+				ACF690341F15A12A003CB597 /* MainVC.swift */,
 				ACF690361F15A12A003CB597 /* Main.storyboard */,
+				ACEDD6531F16F6B500CA7B78 /* tesla.jpg */,
 				ACF6903C1F15A12A003CB597 /* Assets.xcassets */,
 				ACF6903E1F15A12A003CB597 /* LaunchScreen.storyboard */,
 				ACF690411F15A12A003CB597 /* Info.plist */,
@@ -167,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF690401F15A12A003CB597 /* LaunchScreen.storyboard in Resources */,
+				ACEDD6541F16F6B500CA7B78 /* tesla.jpg in Resources */,
 				ACF6903D1F15A12A003CB597 /* Assets.xcassets in Resources */,
 				ACF690381F15A12A003CB597 /* Main.storyboard in Resources */,
 			);
@@ -179,14 +197,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACEDD6591F16FA4100CA7B78 /* ItemCell.swift in Sources */,
 				ACF690541F15A684003CB597 /* Image+CoreDataProperties.swift in Sources */,
 				ACF690521F15A684003CB597 /* Item+CoreDataProperties.swift in Sources */,
 				ACF690511F15A684003CB597 /* Item+CoreDataClass.swift in Sources */,
+				ACEDD6571F16F73000CA7B78 /* MaterialView.swift in Sources */,
 				ACF6904F1F15A684003CB597 /* ItemType+CoreDataClass.swift in Sources */,
 				ACF690561F15A684003CB597 /* Store+CoreDataProperties.swift in Sources */,
 				ACF690531F15A684003CB597 /* Image+CoreDataClass.swift in Sources */,
 				ACF690501F15A684003CB597 /* ItemType+CoreDataProperties.swift in Sources */,
-				ACF690351F15A12A003CB597 /* ViewController.swift in Sources */,
+				ACF690351F15A12A003CB597 /* MainVC.swift in Sources */,
 				ACF690551F15A684003CB597 /* Store+CoreDataClass.swift in Sources */,
 				ACF690331F15A12A003CB597 /* AppDelegate.swift in Sources */,
 				ACF6903B1F15A12A003CB597 /* DreamLister.xcdatamodeld in Sources */,
@@ -351,6 +371,7 @@
 				ACF690461F15A12A003CB597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
