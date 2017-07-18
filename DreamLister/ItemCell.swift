@@ -25,5 +25,11 @@ class ItemCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func configureCell(item: Item) {
+        title.text = item.title
+        price.text = "\(item.price)"
+        details.text = item.details
+    }
 
 }

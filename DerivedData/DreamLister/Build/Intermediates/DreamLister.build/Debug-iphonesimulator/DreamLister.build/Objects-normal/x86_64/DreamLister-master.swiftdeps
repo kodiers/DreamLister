@@ -1,0 +1,16 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "8adc7fa540088900bf9a97cd59dbae23"
+build_time: [553654714, 809715000]
+inputs:
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/ItemCell.swift": [553653752, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/Image+CoreDataProperties.swift": [553134979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/Item+CoreDataProperties.swift": [553134979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/Item+CoreDataClass.swift": [553653979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/MaterialView.swift": [553221954, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/ItemType+CoreDataClass.swift": [553653979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/Store+CoreDataProperties.swift": [553654244, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/Image+CoreDataClass.swift": [553653979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/ItemType+CoreDataProperties.swift": [553134979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/MainVC.swift": !dirty [553654294, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/Store+CoreDataClass.swift": [553653979, 0]
+  "/Users/viktoryamchinov/Desktop/XCode/CoreData/DreamLister/DreamLister/AppDelegate.swift": [553652020, 0]
