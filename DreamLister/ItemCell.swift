@@ -14,6 +14,7 @@ class ItemCell: UITableViewCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var details: UILabel!
+    @IBOutlet weak var typeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -30,6 +31,8 @@ class ItemCell: UITableViewCell {
         title.text = item.title
         price.text = "\(item.price)"
         details.text = item.details
+        thumb.image = item.toImage?.image as? UIImage
+        typeLabel.text = item.toItemType?.type
     }
 
 }
